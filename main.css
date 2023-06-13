@@ -1,0 +1,65 @@
+html, body, nav, div, a {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    background-color: #fffef2;
+}
+nav {
+    clear: both;
+    background-color: #e7ac0e;
+    padding: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav li {
+    display: inline-block;
+}
+nav li:last-child{
+    padding-right: 15px;
+}
+.title {
+    padding: 15px;
+}
+.box-area {
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; This property isn't needed in my example. Because all our boxes are the same size, the parent container automatically adjusts it's height to fit its children. If I were to specify a height, this would center them vertically. */
+}
+.box {
+    border: 1px #e7ac0e solid;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 350px;
+    margin: .5rem;
+}
+.box h2 {
+    font-size: 20px;
+    font-weight: 10;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.box p {
+    padding: 20px 25px 0 25px;
+}
+.more-info {
+    text-align: center;
+    padding: 5px;
+    background-color: #e7ac0e;
+    border-radius: 5px;
+    margin: 15px 15px 20px 15px;
+}
+.more-info a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
